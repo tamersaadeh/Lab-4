@@ -17,7 +17,7 @@ int main() {
 	int i;
 	for (i = 0; i < triangle; i++) {
 		int j;
-		for (j = 0; j < i; j++)
+		for (j = 0; j < i + 1; j++)
 			printf("*");
 		printf("\n");
 	}
